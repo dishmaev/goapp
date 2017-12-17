@@ -3,3 +3,4 @@ debug
 /tools/data/*
 /tools/history/*
 /tools/tmp/*
+*.sublime-workspace
