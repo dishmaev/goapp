@@ -1,0 +1,250 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"fmt\t package ρ"
+			],
+			[
+				"P",
+				"Println\tn int, err error ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "git sta",
+		"selected_items":
+		[
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git che",
+				"Git: Checkout Current File"
+			],
+			[
+				"git check",
+				"Git: Checkout"
+			],
+			[
+				"git di",
+				"Git: Diff Cached"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"git ch",
+				"Git: Checkout"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 533.0
+	},
+	"console":
+	{
+		"height": 591.0,
+		"history":
+		[
+			"pwd",
+			"quit",
+			"exit",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/dmitry/Projects/goapp"
+	],
+	"file_history":
+	[
+		"/home/dmitry/Projects/goapp/hello.go",
+		"/home/dmitry/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
+		"/home/dmitry/go1.9.2/src/fmt/print.go",
+		"/home/dmitry/.config/sublime-text-3/Packages/GoSublime/README.md",
+		"/home/dmitry/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+		"/home/dmitry/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/dmitry/.config/sublime-text-3/Packages/User/SublimeGit.sublime-settings",
+		"/home/dmitry/Projects/goapp/.gitignore",
+		"/home/dmitry/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/dmitry/.config/sublime-text-3/Packages/GoSublime/9o.md",
+		"/home/dmitry/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"GOPATH",
+			"GOROOT"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///home/dmitry/.config/sublime-text-3/Packages/GoSublime":
+	{
+		"height": 102.0
+	},
+	"output.9o:///home/dmitry/Projects/goapp":
+	{
+		"height": 188.0
+	},
+	"output.GoSublime-output":
+	{
+		"height": 283.0
+	},
+	"output.GsDoc-output-output":
+	{
+		"height": 103.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "goapp.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
