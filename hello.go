@@ -1,9 +1,14 @@
 package main
 
 import "fmt"
-
-// this is a comment
+import "os"
+import "./version"
 
 func main() {
-	fmt.Println("Hello World") //comm
+	for i := range os.Args {
+		a := os.Args[i]
+		if a == "--version" {
+			fmt.Printf("hello %s\n", version.CONST_PACKAGE_VERSION)
+		}
+	}
 }
