@@ -57,8 +57,6 @@ if [ "$2" = "rel" ]; then
   checkRetValOK
   sudo apt -y install $3
   checkRetValOK
-  apt-cache -p $3
-  checkRetValOK
 else # tst,dev
   mkdir deploy
   checkRetValOK
@@ -69,8 +67,6 @@ else # tst,dev
   #manually install packages
   for VAR_CUR_PACKAGE in ./*.deb; do
     if [ ! -r "$VAR_CUR_PACKAGE" ]; then continue; fi
-    dpkg --info $VAR_CUR_PACKAGE
-    checkRetValOK
     sudo apt -y install $VAR_CUR_PACKAGE
   done
   #check all dependences
