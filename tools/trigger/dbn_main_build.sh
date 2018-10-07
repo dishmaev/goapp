@@ -34,7 +34,7 @@ echo "Current build suite: $2"
 uname -a
 
 readonly CONST_PACKAGE_SPEC=package-spec.cfg
-readonly CONST_PACKAGE_HEADER=version/package-spec.go
+readonly CONST_PACKAGE_HEADER=package-spec.go
 readonly CONST_FIELD_SPEC_VERSION=CONST_PACKAGE_VERSION
 
 VAR_CONFIG=$(getConfigName "$2") || exit 1
