@@ -53,9 +53,11 @@ uname -a
 checkDpkgUnlock
 if [ "$2" = "rel" ]; then
   #install packages from personal repository
-#  sudo apt -y update
-#  checkRetValOK
+  sudo apt -y update
+  checkRetValOK
   sudo apt -y install $3
+  checkRetValOK
+  apt-cache -p $3
   checkRetValOK
 else # tst,dev
   mkdir deploy
@@ -68,8 +70,8 @@ else # tst,dev
   for VAR_CUR_PACKAGE in ./*.deb; do
     if [ ! -r "$VAR_CUR_PACKAGE" ]; then continue; fi
     dpkg --info $VAR_CUR_PACKAGE
+    checkRetValOK
     sudo apt -y install $VAR_CUR_PACKAGE
-#    checkRetValOK
   done
   #check all dependences
   sudo apt -y install -f
