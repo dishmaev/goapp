@@ -49,6 +49,8 @@ uname -a
 
 #install packages
 if [ "$2" = "run" ]; then
+  sudo yum -y install rpm-build
+  checkRetValOK
   sudo yum -y install golang
   checkRetValOK
 fi
