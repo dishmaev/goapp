@@ -51,7 +51,7 @@ if [ -r "$CONST_PACKAGE_HEADER" ]; then
   sed -i "/$CONST_FIELD_SPEC_VERSION/c const CONST_PACKAGE_VERSION = \"$VAR_VERSION\"" $CONST_PACKAGE_HEADER
   checkRetValOK
 fi
-go build -o dist/${VAR_CONFIG}_APT/GNU-Linux/hello hello.go package-spec.go
+go build -o dist/${VAR_CONFIG}_APT/GNU-Linux/${3} hello.go package-spec.go
 checkRetValOK
 bash -x package-apt.bash dist/${VAR_CONFIG}_APT/GNU-Linux $3 QMAKE=/usr/bin/qmake
 checkRetValOK
